@@ -1,1 +1,11 @@
 *{font-family: 'Titillium Web', sans-serif;}@tailwind base;@tailwind components;@tailwind utilities;
+.active{
+    @apply font-medium p-4 border-b-2 border-primary-500;
+}
+
+
+.glass {
+    opacity: 0.9;
+    backdrop-filter: blur(20px); 
+    box-shadow: none;
+}
