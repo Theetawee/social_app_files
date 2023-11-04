@@ -1208,6 +1208,14 @@ input:checked + .toggle-bg{
   margin-top: 2px;
 }
 
+.mr-4{
+  margin-right: 1rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
 .block{
   display: block;
 }
@@ -1306,6 +1314,14 @@ input:checked + .toggle-bg{
 
 .h-\[8px\]{
   height: 8px;
+}
+
+.h-24{
+  height: 6rem;
+}
+
+.h-28{
+  height: 7rem;
 }
 
 .min-h-\[20rem\]{
@@ -1825,12 +1841,21 @@ input:checked + .toggle-bg{
   padding-bottom: 2rem;
 }
 
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pt-2{
   padding-top: 0.5rem;
 }
 
 .pt-20{
   padding-top: 5rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .text-center{
