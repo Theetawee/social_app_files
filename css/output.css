@@ -1348,6 +1348,30 @@ input:checked + .toggle-bg{
   height: 6rem;
 }
 
+.h-\[80vh\]{
+  height: 80vh;
+}
+
+.h-\[50vh\]{
+  height: 50vh;
+}
+
+.h-\[70vh\]{
+  height: 70vh;
+}
+
+.h-9{
+  height: 2.25rem;
+}
+
+.h-7{
+  height: 1.75rem;
+}
+
+.h-72{
+  height: 18rem;
+}
+
 .min-h-\[20rem\]{
   min-height: 20rem;
 }
@@ -1418,6 +1442,14 @@ input:checked + .toggle-bg{
 
 .w-36{
   width: 9rem;
+}
+
+.w-72{
+  width: 18rem;
+}
+
+.w-screen{
+  width: 100vw;
 }
 
 .max-w-lg{
@@ -1793,12 +1825,22 @@ input:checked + .toggle-bg{
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-gray-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(120 120 120 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
 
 .fill-primary-600{
   fill: #0284c7;
+}
+
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover{
@@ -2069,6 +2111,14 @@ input:checked + .toggle-bg{
 
 .opacity-70{
   opacity: 0.7;
+}
+
+.opacity-50{
+  opacity: 0.5;
+}
+
+.opacity-80{
+  opacity: 0.8;
 }
 
 .shadow{
@@ -2552,6 +2602,18 @@ input:checked + .toggle-bg{
     height: 5rem;
   }
 
+  .sm\:h-\[\]{
+    height: ;
+  }
+
+  .sm\:h-\[80vh\]{
+    height: 80vh;
+  }
+
+  .sm\:h-\[90vh\]{
+    height: 90vh;
+  }
+
   .sm\:w-20{
     width: 5rem;
   }
@@ -2567,6 +2629,11 @@ input:checked + .toggle-bg{
   .sm\:translate-x-0{
     --tw-translate-x: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .sm\:object-cover{
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .sm\:p-8{
