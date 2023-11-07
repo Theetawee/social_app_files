@@ -2517,6 +2517,10 @@ input[name="category"]:focus{
   --tw-ring-color: rgb(79 70 229 / var(--tw-ring-opacity));
 }
 
+.disabled\:cursor-not-allowed:disabled{
+  cursor: not-allowed;
+}
+
 .group:hover .group-hover\:text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
