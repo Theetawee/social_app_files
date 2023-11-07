@@ -19,3 +19,20 @@
     backdrop-filter: blur(20px); 
     box-shadow: none;
 }
+
+
+.cats>div>label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    background-color: #dbeafe;
+    padding: .3rem .7rem;
+    border-radius: 1rem;
+  font-size: 1rem;
+  border:#93c5fd solid 1px;
+  }
+  /* Assuming you have an input with the name 'categories' */
+input[name="category"] {
+  @apply w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-0 dark:bg-gray-700 dark:border-gray-600;
+} 
