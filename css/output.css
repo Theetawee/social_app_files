@@ -1395,6 +1395,10 @@ input:checked + .toggle-bg{
   min-height: 80vh;
 }
 
+.min-h-\[50vh\]{
+  min-height: 50vh;
+}
+
 .w-1\/2{
   width: 50%;
 }
