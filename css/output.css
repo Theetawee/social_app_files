@@ -1139,11 +1139,6 @@ input:checked + .toggle-bg{
   margin-right: auto;
 }
 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -1573,6 +1568,10 @@ input:checked + .toggle-bg{
 
 .flex-col{
   flex-direction: column;
+}
+
+.flex-col-reverse{
+  flex-direction: column-reverse;
 }
 
 .flex-wrap{
@@ -2016,6 +2015,10 @@ input:checked + .toggle-bg{
   padding-top: 1.5rem;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
 }
@@ -2035,8 +2038,8 @@ input:checked + .toggle-bg{
   line-height: 2.5rem;
 }
 
-.text-7xl{
-  font-size: 4.5rem;
+.text-6xl{
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -2064,17 +2067,13 @@ input:checked + .toggle-bg{
   line-height: 1rem;
 }
 
-.text-6xl{
-  font-size: 3.75rem;
+.text-5xl{
+  font-size: 3rem;
   line-height: 1;
 }
 
 .font-bold{
   font-weight: 700;
-}
-
-.font-extrabold{
-  font-weight: 800;
 }
 
 .font-light{
@@ -2091,6 +2090,14 @@ input:checked + .toggle-bg{
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-\[400\]{
+  font-weight: 400;
+}
+
+.uppercase{
+  text-transform: uppercase;
 }
 
 .italic{
@@ -2193,6 +2200,11 @@ input:checked + .toggle-bg{
   color: rgb(155 28 28 / var(--tw-text-opacity));
 }
 
+.text-slate-600{
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
 .text-slate-700{
   --tw-text-opacity: 1;
   color: rgb(51 65 85 / var(--tw-text-opacity));
@@ -2203,9 +2215,9 @@ input:checked + .toggle-bg{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-slate-600{
+.text-slate-800{
   --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
+  color: rgb(30 41 59 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -2901,6 +2913,14 @@ input[name="category"]:focus{
     display: flex;
   }
 
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:h-96{
+    height: 24rem;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
@@ -3009,11 +3029,6 @@ input[name="category"]:focus{
 
   .lg\:text-5xl{
     font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-9xl{
-    font-size: 8rem;
     line-height: 1;
   }
 
