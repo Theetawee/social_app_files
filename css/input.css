@@ -40,7 +40,7 @@ input[name="category"] {
 
 .progress {
   position: fixed;
-  top: 0;
+  top: 64px;
   z-index: 1000;
   height: 4px;
   width: 100%;
@@ -84,59 +84,37 @@ input[name="category"] {
 .htmx-request.progress {
   display: inline;
 }
-@-webkit-keyframes indeterminate {
-  0% {
-    left: -35%;
-    right: 100%;
-  }
-  60% {
-    left: 100%;
-    right: -90%;
-  }
-  100% {
-    left: 100%;
-    right: -90%;
-  }
-}
 @keyframes indeterminate {
   0% {
     left: -35%;
     right: 100%;
   }
-  60% {
+  50% {
     left: 100%;
     right: -90%;
   }
   100% {
-    left: 100%;
-    right: -90%;
+    left: 135%;
+    right: -100%;
   }
 }
-@-webkit-keyframes indeterminate-short {
-  0% {
-    left: -200%;
-    right: 100%;
-  }
-  60% {
-    left: 107%;
-    right: -8%;
-  }
-  100% {
-    left: 107%;
-    right: -8%;
-  }
-}
+
 @keyframes indeterminate-short {
   0% {
     left: -200%;
     right: 100%;
   }
-  60% {
+  50% {
     left: 107%;
     right: -8%;
   }
   100% {
-    left: 107%;
-    right: -8%;
+    left: 200%;
+    right: -100%;
   }
+}
+
+.progress .indeterminate:before,
+.progress .indeterminate:after {
+  animation-timing-function: linear; /* Use ease-out or ease-in-out for different effects */
 }
