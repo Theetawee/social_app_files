@@ -1283,6 +1283,10 @@ input:checked + .toggle-bg{
   height: 4rem;
 }
 
+.h-2{
+  height: 0.5rem;
+}
+
 .h-20{
   height: 5rem;
 }
@@ -2038,6 +2042,11 @@ input:checked + .toggle-bg{
   line-height: 2.5rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-6xl{
   font-size: 3.75rem;
   line-height: 1;
@@ -2067,9 +2076,8 @@ input:checked + .toggle-bg{
   line-height: 1rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
+.font-\[400\]{
+  font-weight: 400;
 }
 
 .font-bold{
@@ -2090,14 +2098,6 @@ input:checked + .toggle-bg{
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-\[400\]{
-  font-weight: 400;
-}
-
-.uppercase{
-  text-transform: uppercase;
 }
 
 .italic{
@@ -2210,14 +2210,14 @@ input:checked + .toggle-bg{
   color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-slate-800{
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -2382,6 +2382,87 @@ input[name="category"]:focus{
 :is(.dark input[name="category"]:focus){
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(79 70 229 / var(--tw-ring-opacity));
+}
+
+.progress {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-clip: padding-box;
+  overflow: hidden;
+}
+
+.progress .indeterminate:before {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+}
+
+.progress .indeterminate:after {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1)
+    infinite;
+  animation-delay: 1.15s;
+}
+
+.progress {
+  display: none;
+}
+
+.htmx-request .progress {
+  display: inline;
+}
+
+.htmx-request.progress {
+  display: inline;
+}
+
+@keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%;
+  }
+
+  60% {
+    left: 100%;
+    right: -90%;
+  }
+
+  100% {
+    left: 100%;
+    right: -90%;
+  }
+}
+
+@keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%;
+  }
+
+  60% {
+    left: 107%;
+    right: -8%;
+  }
+
+  100% {
+    left: 107%;
+    right: -8%;
+  }
 }
 
 .hover\:border-gray-300:hover{
@@ -3042,4 +3123,4 @@ input[name="category"]:focus{
   .xl\:p-0{
     padding: 0px;
   }
-} 
+}
