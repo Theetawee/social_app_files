@@ -118,3 +118,8 @@ input[name="category"] {
 .progress .indeterminate:after {
   animation-timing-function: linear; /* Use ease-out or ease-in-out for different effects */
 }
+
+
+.nolikeBtn:hover .nolikesvg{
+        @apply text-red-500;
+    }
