@@ -1495,6 +1495,10 @@ input:checked + .toggle-bg{
   width: 100%;
 }
 
+.w-16{
+  width: 4rem;
+}
+
 .max-w-3xl{
   max-width: 48rem;
 }
@@ -1807,6 +1811,10 @@ input:checked + .toggle-bg{
 
 .border-r-2{
   border-right-width: 2px;
+}
+
+.border-solid{
+  border-style: solid;
 }
 
 .border-blue-400{
@@ -2219,6 +2227,10 @@ input:checked + .toggle-bg{
   font-weight: 700;
 }
 
+.font-extrabold{
+  font-weight: 800;
+}
+
 .font-light{
   font-weight: 300;
 }
@@ -2233,10 +2245,6 @@ input:checked + .toggle-bg{
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-extrabold{
-  font-weight: 800;
 }
 
 .italic{
@@ -3169,14 +3177,14 @@ input[name="category"]:focus{
     padding: 2rem;
   }
 
-  .sm\:py-2{
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
   .sm\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .sm\:py-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .sm\:pl-4{
