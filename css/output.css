@@ -2044,6 +2044,11 @@ input:checked + .toggle-bg{
   padding-bottom: 2rem;
 }
 
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -3173,6 +3178,18 @@ input[name="category"]:focus{
     height: 100vh;
   }
 
+  .md\:h-9{
+    height: 2.25rem;
+  }
+
+  .md\:h-7{
+    height: 1.75rem;
+  }
+
+  .md\:h-72{
+    height: 18rem;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
@@ -3217,6 +3234,11 @@ input[name="category"]:focus{
   .md\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .md\:pl-16{
@@ -3267,6 +3289,10 @@ input[name="category"]:focus{
     display: block;
   }
 
+  .lg\:h-96{
+    height: 24rem;
+  }
+
   .lg\:w-full{
     width: 100%;
   }
@@ -3299,6 +3325,11 @@ input[name="category"]:focus{
     padding-bottom: 4rem;
   }
 
+  .lg\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .lg\:pl-24{
     padding-left: 6rem;
   }
@@ -3324,8 +3355,17 @@ input[name="category"]:focus{
 }
 
 @media (min-width: 1280px){
+  .xl\:h-96{
+    height: 24rem;
+  }
+
   .xl\:p-0{
     padding: 0px;
+  }
+
+  .xl\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
 
