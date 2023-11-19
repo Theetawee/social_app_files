@@ -3099,6 +3099,11 @@ input[name="category"]:focus{
     padding-right: 2rem;
   }
 
+  .md\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .md\:pl-16{
     padding-left: 4rem;
   }
