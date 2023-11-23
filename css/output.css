@@ -1144,6 +1144,11 @@ input:checked + .toggle-bg{
   margin-bottom: -2rem;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -1332,6 +1337,10 @@ input:checked + .toggle-bg{
   height: 13rem;
 }
 
+.h-56{
+  height: 14rem;
+}
+
 .h-6{
   height: 1.5rem;
 }
@@ -1358,14 +1367,6 @@ input:checked + .toggle-bg{
 
 .h-screen{
   height: 100vh;
-}
-
-.max-h-96{
-  max-height: 24rem;
-}
-
-.max-h-\[24rem\]{
-  max-height: 24rem;
 }
 
 .min-h-\[80vh\]{
@@ -1432,10 +1433,6 @@ input:checked + .toggle-bg{
   width: 100%;
 }
 
-.w-96{
-  width: 24rem;
-}
-
 .max-w-3xl{
   max-width: 48rem;
 }
@@ -1450,6 +1447,10 @@ input:checked + .toggle-bg{
 
 .max-w-screen-lg{
   max-width: 1024px;
+}
+
+.max-w-screen-md{
+  max-width: 768px;
 }
 
 .max-w-screen-sm{
@@ -1640,10 +1641,6 @@ input:checked + .toggle-bg{
   gap: 1rem;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
 .gap-6{
   gap: 1.5rem;
 }
@@ -1713,6 +1710,10 @@ input:checked + .toggle-bg{
   border-radius: 0.75rem;
 }
 
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+
 .rounded-l-lg{
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -1744,20 +1745,16 @@ input:checked + .toggle-bg{
   border-bottom-width: 1px;
 }
 
+.border-l-4{
+  border-left-width: 4px;
+}
+
 .border-r{
   border-right-width: 1px;
 }
 
 .border-t{
   border-top-width: 1px;
-}
-
-.border-l{
-  border-left-width: 1px;
-}
-
-.border-l-4{
-  border-left-width: 4px;
 }
 
 .border-solid{
@@ -1864,6 +1861,11 @@ input:checked + .toggle-bg{
   background-color: rgb(214 235 255 / var(--tw-bg-opacity));
 }
 
+.bg-primary-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 248 255 / var(--tw-bg-opacity));
+}
+
 .bg-primary-500{
   --tw-bg-opacity: 1;
   background-color: rgb(26 140 229 / var(--tw-bg-opacity));
@@ -1896,11 +1898,6 @@ input:checked + .toggle-bg{
 
 .bg-white\/50{
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.bg-primary-50{
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 248 255 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50{
@@ -2031,6 +2028,16 @@ input:checked + .toggle-bg{
   padding-bottom: 0.75rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -2084,10 +2091,6 @@ input:checked + .toggle-bg{
 
 .pt-5{
   padding-top: 1.25rem;
-}
-
-.pl-4{
-  padding-left: 1rem;
 }
 
 .text-left{
@@ -2580,6 +2583,11 @@ input[name="category"]:focus{
   background-color: rgb(66 133 244 / 0.9);
 }
 
+.hover\:bg-blue-100:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 239 254 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-blue-800:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(30 66 159 / var(--tw-bg-opacity));
@@ -2743,6 +2751,11 @@ input[name="category"]:focus{
 .group:hover .group-hover\:text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+:is([dir="rtl"] .rtl\:-rotate-90){
+  --tw-rotate: -90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 :is(.dark .dark\:border){
@@ -3026,12 +3039,12 @@ input[name="category"]:focus{
     border-color: rgb(229 231 235 / var(--tw-border-opacity));
   }
 
-  .sm\:p-8{
-    padding: 2rem;
-  }
-
   .sm\:p-4{
     padding: 1rem;
+  }
+
+  .sm\:p-8{
+    padding: 2rem;
   }
 
   .sm\:py-2{
@@ -3140,14 +3153,18 @@ input[name="category"]:focus{
     margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
   }
 
-  .md\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .md\:p-6{
+    padding: 1.5rem;
   }
 
   .md\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .md\:pl-16{
@@ -3200,11 +3217,6 @@ input[name="category"]:focus{
 
   .lg\:flex-nowrap{
     flex-wrap: nowrap;
-  }
-
-  .lg\:px-20{
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 
   .lg\:px-6{
