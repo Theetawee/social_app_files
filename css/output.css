@@ -1959,6 +1959,11 @@ input:checked + .toggle-bg{
   fill: #0f6cbf;
 }
 
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -3205,6 +3210,10 @@ input[name="category"]:focus{
 
   .md\:h-screen{
     height: 100vh;
+  }
+
+  .md\:h-full{
+    height: 100%;
   }
 
   .md\:w-1\/2{
