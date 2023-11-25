@@ -1373,6 +1373,10 @@ input:checked + .toggle-bg{
   height: 100vh;
 }
 
+.h-3{
+  height: 0.75rem;
+}
+
 .min-h-\[80vh\]{
   min-height: 80vh;
 }
@@ -1439,6 +1443,10 @@ input:checked + .toggle-bg{
 
 .w-full{
   width: 100%;
+}
+
+.w-3{
+  width: 0.75rem;
 }
 
 .max-w-3xl{
@@ -1735,6 +1743,16 @@ input:checked + .toggle-bg{
 .rounded-t-sm{
   border-top-left-radius: 0.125rem;
   border-top-right-radius: 0.125rem;
+}
+
+.rounded-e-lg{
+  border-start-end-radius: 0.5rem;
+  border-end-end-radius: 0.5rem;
+}
+
+.rounded-s-lg{
+  border-start-start-radius: 0.5rem;
+  border-end-start-radius: 0.5rem;
 }
 
 .border{
@@ -2659,6 +2677,11 @@ input[name="category"]:focus{
   color: rgb(10 82 154 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue-700:hover{
+  --tw-text-opacity: 1;
+  color: rgb(26 86 219 / var(--tw-text-opacity));
+}
+
 .hover\:underline:hover{
   text-decoration-line: underline;
 }
@@ -2680,6 +2703,16 @@ input[name="category"]:focus{
 .focus\:border-primary-600:focus{
   --tw-border-opacity: 1;
   border-color: rgb(15 108 191 / var(--tw-border-opacity));
+}
+
+.focus\:text-blue-700:focus{
+  --tw-text-opacity: 1;
+  color: rgb(26 86 219 / var(--tw-text-opacity));
+}
+
+.focus\:text-primary-700:focus{
+  --tw-text-opacity: 1;
+  color: rgb(10 82 154 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus{
@@ -2743,6 +2776,16 @@ input[name="category"]:focus{
 .focus\:ring-primary-600:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(15 108 191 / var(--tw-ring-opacity));
+}
+
+.focus\:ring-blue-700:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(26 86 219 / var(--tw-ring-opacity));
+}
+
+.focus\:ring-primary-700:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(10 82 154 / var(--tw-ring-opacity));
 }
 
 .disabled\:cursor-not-allowed:disabled{
@@ -2952,6 +2995,11 @@ input[name="category"]:focus{
 :is(.dark .dark\:focus\:border-primary-500:focus){
   --tw-border-opacity: 1;
   border-color: rgb(26 140 229 / var(--tw-border-opacity));
+}
+
+:is(.dark .dark\:focus\:text-white:focus){
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:focus\:ring-blue-500:focus){
