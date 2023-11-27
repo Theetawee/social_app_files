@@ -129,3 +129,7 @@ input[name="category"] {
 .tribute h3{
   @apply text-2xl mb-2 text-gray-600;
 }
+
+.tribute a{
+  @apply text-primary-500 hover:underline;
+}
