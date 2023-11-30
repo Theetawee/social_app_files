@@ -1452,10 +1452,6 @@ input:checked + .toggle-bg{
   width: 83.333333%;
 }
 
-.w-56{
-  width: 14rem;
-}
-
 .w-6{
   width: 1.5rem;
 }
@@ -1468,6 +1464,10 @@ input:checked + .toggle-bg{
   width: 2rem;
 }
 
+.w-80{
+  width: 20rem;
+}
+
 .w-9{
   width: 2.25rem;
 }
@@ -1478,10 +1478,6 @@ input:checked + .toggle-bg{
 
 .w-full{
   width: 100%;
-}
-
-.w-80{
-  width: 20rem;
 }
 
 .max-w-3xl{
@@ -1963,6 +1959,11 @@ input:checked + .toggle-bg{
   background-color: rgb(253 242 242 / var(--tw-bg-opacity));
 }
 
+.bg-red-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(200 30 30 / var(--tw-bg-opacity));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1970,11 +1971,6 @@ input:checked + .toggle-bg{
 
 .bg-white\/50{
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.bg-red-700{
-  --tw-bg-opacity: 1;
-  background-color: rgb(200 30 30 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50{
@@ -2718,6 +2714,11 @@ input[name="category"]:focus{
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-50:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-primary-600:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(8 145 178 / var(--tw-bg-opacity));
@@ -2738,19 +2739,14 @@ input[name="category"]:focus{
   background-color: rgb(251 213 213 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-white:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-50:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-red-800:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(155 28 28 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-br:hover{
@@ -3253,8 +3249,8 @@ input[name="category"]:focus{
     margin-bottom: 0px;
   }
 
-  .md\:ml-56{
-    margin-left: 14rem;
+  .md\:ml-80{
+    margin-left: 20rem;
   }
 
   .md\:ms-2{
@@ -3268,10 +3264,6 @@ input[name="category"]:focus{
 
   .md\:mt-20{
     margin-top: 5rem;
-  }
-
-  .md\:ml-80{
-    margin-left: 20rem;
   }
 
   .md\:flex{
