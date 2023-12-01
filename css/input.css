@@ -133,3 +133,8 @@ input[name="category"] {
 .tribute a{
   @apply text-primary-500 hover:underline;
 }
+
+
+.croper-image{
+  width: 100%;
+}
