@@ -1420,6 +1420,18 @@ input:checked + .toggle-bg{
   height: 100vh;
 }
 
+.max-h-20{
+  max-height: 5rem;
+}
+
+.max-h-10{
+  max-height: 2.5rem;
+}
+
+.max-h-16{
+  max-height: 4rem;
+}
+
 .min-h-\[80vh\]{
   min-height: 80vh;
 }
@@ -2803,11 +2815,6 @@ input[name="category"]:focus{
   color: rgb(28 100 242 / var(--tw-text-opacity));
 }
 
-.hover\:text-blue-700:hover{
-  --tw-text-opacity: 1;
-  color: rgb(26 86 219 / var(--tw-text-opacity));
-}
-
 .hover\:text-gray-600:hover{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -3262,6 +3269,10 @@ input[name="category"]:focus{
 
   .sm\:hidden{
     display: none;
+  }
+
+  .sm\:max-h-16{
+    max-height: 4rem;
   }
 
   .sm\:max-w-md{
