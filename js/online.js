@@ -1,8 +1,17 @@
-const badge = document.getElementById('badge-c')
+const badge = document.getElementById("badge-c");
+
 
 
 if (navigator.onLine) {
-    badge.style.display = "none";
+  badge.style.display = "none";
 } else {
-    badge.style.display='block'
+  badge.style.display = "block";
 }
+
+
+
+
+
+
+
+
