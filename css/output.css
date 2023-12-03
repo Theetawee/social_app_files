@@ -3443,6 +3443,10 @@ input[name="category"]:focus{
     height: 100vh;
   }
 
+  .md\:h-0{
+    height: 0px;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
