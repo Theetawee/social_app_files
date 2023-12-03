@@ -48,3 +48,84 @@ input[name="category"] {
 .croper-image{
   width: 100%;
 }
+
+#id_date_of_birth_month{
+  @apply rounded-s-md focus:ring-0;
+}
+
+#id_date_of_birth_day{
+  @apply rounded-none;
+}
+
+#id_date_of_birth_year{
+  @apply rounded-e-md;
+}
+
+/* 
+/* Tooltip container *
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text *
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! *
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container *
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+ */
+
+.tooltip {
+    cursor: help;
+    position: relative;
+    text-align: center;
+}
+
+.tooltip .tooltiptext {
+    bottom: 100%;
+    display: block;
+    width: 120px;
+    left: 50%;
+    margin-bottom: 15px;
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-50%) translateY(10px);
+    transition: all .25s ease-out;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+.tooltip:hover .tooltiptext {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0px);
+}
+
+/* CSS Triangles - see Trevor's post */
+.tooltip .tooltiptext:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid black 10px;
+    bottom: -10px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 0;
+}

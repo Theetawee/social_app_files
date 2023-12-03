@@ -1111,12 +1111,12 @@ input:checked + .toggle-bg{
   left: 2.5rem;
 }
 
-.left-7{
-  left: 1.75rem;
+.left-48{
+  left: 12rem;
 }
 
-.left-72{
-  left: 18rem;
+.left-7{
+  left: 1.75rem;
 }
 
 .left-8{
@@ -1149,38 +1149,6 @@ input:checked + .toggle-bg{
 
 .top-12{
   top: 3rem;
-}
-
-.left-2{
-  left: 0.5rem;
-}
-
-.left-28{
-  left: 7rem;
-}
-
-.left-4{
-  left: 1rem;
-}
-
-.left-40{
-  left: 10rem;
-}
-
-.left-5{
-  left: 1.25rem;
-}
-
-.left-52{
-  left: 13rem;
-}
-
-.left-48{
-  left: 12rem;
-}
-
-.left-44{
-  left: 11rem;
 }
 
 .z-10{
@@ -1216,6 +1184,11 @@ input:checked + .toggle-bg{
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my-4{
@@ -1957,6 +1930,11 @@ input:checked + .toggle-bg{
   border-color: rgb(241 126 184 / var(--tw-border-opacity));
 }
 
+.border-primary-300{
+  --tw-border-opacity: 1;
+  border-color: rgb(103 232 249 / var(--tw-border-opacity));
+}
+
 .border-primary-500{
   --tw-border-opacity: 1;
   border-color: rgb(6 182 212 / var(--tw-border-opacity));
@@ -2287,6 +2265,14 @@ input:checked + .toggle-bg{
   padding-top: 2rem;
 }
 
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.pt-14{
+  padding-top: 3.5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -2375,6 +2361,11 @@ input:checked + .toggle-bg{
 
 .italic{
   font-style: italic;
+}
+
+.ordinal{
+  --tw-ordinal: ordinal;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
 .leading-6{
@@ -2721,6 +2712,97 @@ input[name="category"]:focus{
   width: 100%;
 }
 
+#id_date_of_birth_month{
+  border-start-start-radius: 0.375rem;
+  border-end-start-radius: 0.375rem;
+}
+
+#id_date_of_birth_month:focus{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+#id_date_of_birth_day{
+  border-radius: 0px;
+}
+
+#id_date_of_birth_year{
+  border-start-end-radius: 0.375rem;
+  border-end-end-radius: 0.375rem;
+}
+
+/* 
+/* Tooltip container *
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text *
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! *
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container *
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+ */
+
+.tooltip {
+  cursor: help;
+  position: relative;
+  text-align: center;
+}
+
+.tooltip .tooltiptext {
+  bottom: 100%;
+  display: block;
+  width: 120px;
+  left: 50%;
+  margin-bottom: 15px;
+  opacity: 0;
+  position: absolute;
+  transform: translateX(-50%) translateY(10px);
+  transition: all .25s ease-out;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0px);
+}
+
+/* CSS Triangles - see Trevor's post */
+
+.tooltip .tooltiptext:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid black 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  width: 0;
+}
+
 .hover\:border-gray-300:hover{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -2836,6 +2918,10 @@ input[name="category"]:focus{
 
 .focus\:z-10:focus{
   z-index: 10;
+}
+
+.focus\:border-0:focus{
+  border-width: 0px;
 }
 
 .focus\:border-blue-500:focus{
@@ -3247,6 +3333,10 @@ input[name="category"]:focus{
 
   .sm\:max-h-16{
     max-height: 4rem;
+  }
+
+  .sm\:max-w-lg{
+    max-width: 32rem;
   }
 
   .sm\:max-w-md{
