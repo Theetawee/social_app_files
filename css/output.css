@@ -1338,6 +1338,10 @@ input:checked + .toggle-bg{
           margin-inline-end: 0.75rem;
 }
 
+.-ml-2{
+  margin-left: -0.5rem;
+}
+
 .block{
   display: block;
 }
