@@ -50,7 +50,7 @@ input[name="category"] {
 }
 
 #id_date_of_birth_month{
-  @apply rounded-s-md focus:ring-0;
+  @apply rounded-s-md ;
 }
 
 #id_date_of_birth_day{
@@ -60,36 +60,6 @@ input[name="category"] {
 #id_date_of_birth_year{
   @apply rounded-e-md;
 }
-
-/* 
-/* Tooltip container *
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-/* Tooltip text *
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  /* Position the tooltip text - see examples below! *
-  position: absolute;
-  z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container *
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
- */
-
 .tooltip {
     cursor: help;
     position: relative;
