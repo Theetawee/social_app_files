@@ -1,14 +1,29 @@
 *{font-family: 'Rubik', sans-serif;}@tailwind base;@tailwind components;@tailwind utilities;
 ::-webkit-scrollbar{ width: 2px;height: 2px; } ::-webkit-scrollbar-track{ background: #f1f1f1; } ::-webkit-scrollbar-thumb{ background: #888; border-radius: 6px; } ::-webkit-scrollbar-thumb:hover{ background: #555; }
+
+
 .loader{
     display:none;
 }
-.htmx-request .loader{
+.htmx-request .loader {
     display:flex;
 }
 .htmx-request.loader{
     display:flex;
 }
+
+
+#cats_loader{
+    display:none;
+}
+.htmx-request #cats_loader {
+    display:flex;
+}
+.htmx-request#cats_loader{
+    display:flex;
+}
+
+
 .active{
     @apply font-medium p-4 border-b-2 border-primary-500;
 }
