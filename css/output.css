@@ -1891,16 +1891,16 @@ input:checked + .toggle-bg{
   border-left-width: 4px;
 }
 
+.border-r{
+  border-right-width: 1px;
+}
+
 .border-t{
   border-top-width: 1px;
 }
 
 .border-t-0{
   border-top-width: 0px;
-}
-
-.border-r{
-  border-right-width: 1px;
 }
 
 .border-dashed{
@@ -3411,10 +3411,6 @@ input[name="category"]:focus{
 
   .md\:mt-0{
     margin-top: 0px;
-  }
-
-  .md\:ml-64{
-    margin-left: 16rem;
   }
 
   .md\:mt-20{
