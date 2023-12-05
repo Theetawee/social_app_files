@@ -114,3 +114,8 @@ input[name="category"] {
     position: absolute;
     width: 0;
 }
+
+
+#webpush-message{
+  @apply max-w-lg flex items-center p-4 my-3 text-sm text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800;
+}
