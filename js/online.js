@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const NotificationBadge = document.getElementById("b-not");
 
   if (
-    Notification.permission === "denied" ||
     Notification.permission === "default"
   ) {
     if (NotificationBadge) {
