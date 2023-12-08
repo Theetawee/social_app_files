@@ -3853,6 +3853,10 @@ input[name="category"]:focus{
     height: 100vh;
   }
 
+  .md\:h-1\/2{
+    height: 50%;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
