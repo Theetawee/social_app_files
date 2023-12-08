@@ -1,37 +1,16 @@
 const badge = document.getElementById("badge-c");
-if (navigator.onLine) {
-  badge.style.display = "none";
-} else {
-  badge.style.display = "block";
+const msgBox = document.getElementById("webpush-message");
+if (msgBox && msgBox.textContent.trim() === "") {
+  msgBox.textContent = "Allow Waanverse to send notifications";
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const NotificationBadge = document.getElementById("b-not");
-
-  if (
-    Notification.permission === "default"
-  ) {
-    if (NotificationBadge) {
-      NotificationBadge.style.display = "flex";
-    }
-  } else {
-    if (NotificationBadge) {
-      NotificationBadge.style.display = "none";
-    }
-
+window.addEventListener("offline", () => {
+  if (badge) {
+    badge.style.display = "block";
   }
 });
-
-const msgBox = document.getElementById("webpush-message");
-
-if (msgBox) {
-  if (msgBox.textContent === "") {
-    msgBox.textContent = "Allow Waanverse to send notifications";
+window.addEventListener("online", () => {
+  if (badge) {
+    badge.style.display = "none";
   }
-}
-
-
-
-
-
-
+});
