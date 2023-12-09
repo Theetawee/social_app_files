@@ -31,7 +31,7 @@
 
 
 .cats>div>label{
-  @apply flex items-center gap-3 bg-white p-1.5 rounded border border-gray-100 text-sm shadow;
+  @apply flex items-center gap-3 bg-white p-1.5 rounded border dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 border-gray-100 text-sm shadow;
   }
   /* Assuming you have an input with the name 'categories' */
 input[name="category"] {
@@ -45,14 +45,14 @@ input[name="category"] {
 
 
 .tribute h2{
-   @apply text-3xl mb-2 text-slate-600 font-medium;
+   @apply text-3xl mb-2 text-slate-600 dark:text-white font-medium;
 }
 .tribute p{
-  @apply mb-4 text-base text-gray-700;
+  @apply mb-4 dark:text-gray-200 text-base text-gray-700;
 }
 
 .tribute h3{
-  @apply text-2xl mb-2 text-gray-600;
+  @apply text-2xl dark:text-gray-200 mb-2 text-gray-600;
 }
 
 .tribute a{
