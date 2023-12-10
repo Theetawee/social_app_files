@@ -1538,6 +1538,10 @@ input:checked + .toggle-bg{
   height: 100vh;
 }
 
+.h-1{
+  height: 0.25rem;
+}
+
 .max-h-16{
   max-height: 4rem;
 }
@@ -1799,6 +1803,33 @@ input:checked + .toggle-bg{
 
 .animate-spin{
   animation: spin 1s linear infinite;
+}
+
+@keyframes ping{
+  75%, 100%{
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping{
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes bounce{
+  0%, 100%{
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50%{
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+.animate-bounce{
+  animation: bounce 1s infinite;
 }
 
 .cursor-default{
@@ -2296,6 +2327,11 @@ input:checked + .toggle-bg{
 
 .bg-white\/50{
   background-color: rgb(255 255 255 / 0.5);
+}
+
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 131 248 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50{
