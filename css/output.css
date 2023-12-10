@@ -1398,10 +1398,6 @@ input:checked + .toggle-bg{
   margin-top: 2px;
 }
 
-.ml-80{
-  margin-left: 20rem;
-}
-
 .block{
   display: block;
 }
@@ -1542,10 +1538,6 @@ input:checked + .toggle-bg{
   height: 100vh;
 }
 
-.h-28{
-  height: 7rem;
-}
-
 .max-h-16{
   max-height: 4rem;
 }
@@ -1610,6 +1602,10 @@ input:checked + .toggle-bg{
   width: 0.875rem;
 }
 
+.w-32{
+  width: 8rem;
+}
+
 .w-36{
   width: 9rem;
 }
@@ -1672,6 +1668,10 @@ input:checked + .toggle-bg{
 
 .w-full{
   width: 100%;
+}
+
+.w-80{
+  width: 20rem;
 }
 
 .max-w-2xl{
@@ -2285,6 +2285,10 @@ input:checked + .toggle-bg{
   background-color: rgb(200 30 30 / var(--tw-bg-opacity));
 }
 
+.bg-transparent{
+  background-color: transparent;
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -2571,6 +2575,10 @@ input:checked + .toggle-bg{
 
 .text-center{
   text-align: center;
+}
+
+.text-right{
+  text-align: right;
 }
 
 .text-2xl{
@@ -3601,11 +3609,6 @@ input[name="category"]:focus{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-:is(.dark .dark\:text-gray-500){
-  --tw-text-opacity: 1;
-  color: rgb(128 128 128 / var(--tw-text-opacity));
-}
-
 :is(.dark .dark\:placeholder-gray-400)::-moz-placeholder{
   --tw-placeholder-opacity: 1;
   color: rgb(153 153 153 / var(--tw-placeholder-opacity));
@@ -3739,40 +3742,12 @@ input[name="category"]:focus{
     margin-left: auto;
   }
 
-  .sm\:mt-0{
-    margin-top: 0px;
-  }
-
-  .sm\:ml-20{
-    margin-left: 5rem;
-  }
-
-  .sm\:ml-64{
-    margin-left: 16rem;
-  }
-
-  .sm\:mr-80{
-    margin-right: 20rem;
-  }
-
-  .sm\:mr-\[\]{
-    margin-right: ;
-  }
-
-  .sm\:mr-1{
-    margin-right: 0.25rem;
-  }
-
-  .sm\:mr-\[20\%\]{
-    margin-right: 20%;
-  }
-
   .sm\:mr-\[40\%\]{
     margin-right: 40%;
   }
 
-  .sm\:flex{
-    display: flex;
+  .sm\:mt-0{
+    margin-top: 0px;
   }
 
   .sm\:hidden{
@@ -3785,10 +3760,6 @@ input[name="category"]:focus{
 
   .sm\:max-h-16{
     max-height: 4rem;
-  }
-
-  .sm\:w-\[37\%\]{
-    width: 37%;
   }
 
   .sm\:w-\[40\%\]{
@@ -3878,22 +3849,6 @@ input[name="category"]:focus{
     margin-top: 5rem;
   }
 
-  .md\:mr-80{
-    margin-right: 20rem;
-  }
-
-  .md\:mr-\[20\%\]{
-    margin-right: 20%;
-  }
-
-  .md\:mr-\[40\%\]{
-    margin-right: 40%;
-  }
-
-  .md\:flex{
-    display: flex;
-  }
-
   .md\:hidden{
     display: none;
   }
@@ -3936,26 +3891,6 @@ input[name="category"]:focus{
 
   .md\:w-\[75\%\]{
     width: 75%;
-  }
-
-  .md\:w-80{
-    width: 20rem;
-  }
-
-  .md\:w-\[\]{
-    width: ;
-  }
-
-  .md\:w-2\/6{
-    width: 33.333333%;
-  }
-
-  .md\:w-\[37\]{
-    width: 37;
-  }
-
-  .md\:w-\[37\%\]{
-    width: 37%;
   }
 
   .md\:flex-grow{
@@ -4055,28 +3990,16 @@ input[name="category"]:focus{
     margin-left: 18rem;
   }
 
-  .lg\:mt-5{
-    margin-top: 1.25rem;
-  }
-
-  .lg\:ml-80{
-    margin-left: 20rem;
-  }
-
-  .lg\:ml-20{
-    margin-left: 5rem;
-  }
-
   .lg\:ml-\[25\%\]{
     margin-left: 25%;
   }
 
-  .lg\:mr-\[\]{
-    margin-right: ;
-  }
-
   .lg\:mr-\[35\%\]{
     margin-right: 35%;
+  }
+
+  .lg\:mt-5{
+    margin-top: 1.25rem;
   }
 
   .lg\:block{
@@ -4091,40 +4014,20 @@ input[name="category"]:focus{
     display: none;
   }
 
-  .lg\:w-72{
-    width: 18rem;
-  }
-
-  .lg\:w-full{
-    width: 100%;
-  }
-
-  .lg\:w-80{
-    width: 20rem;
-  }
-
-  .lg\:w-2\/6{
-    width: 33.333333%;
-  }
-
-  .lg\:w-2\/12{
-    width: 16.666667%;
-  }
-
   .lg\:w-3\/12{
     width: 25%;
   }
 
-  .lg\:w-\[\]{
-    width: ;
-  }
-
-  .lg\:w-\[355\]{
-    width: 355;
+  .lg\:w-72{
+    width: 18rem;
   }
 
   .lg\:w-\[35\%\]{
     width: 35%;
+  }
+
+  .lg\:w-full{
+    width: 100%;
   }
 
   .lg\:max-w-lg{
@@ -4193,40 +4096,8 @@ input[name="category"]:focus{
     margin-right: 24rem;
   }
 
-  .xl\:mr-\[30rem\]{
-    margin-right: 30rem;
-  }
-
-  .xl\:mr-\[rem\]{
-    margin-right: rem;
-  }
-
-  .xl\:mr-9{
-    margin-right: 2.25rem;
-  }
-
-  .xl\:mr-\[25rem\]{
-    margin-right: 25rem;
-  }
-
-  .xl\:mr-0{
-    margin-right: 0px;
-  }
-
   .xl\:w-96{
     width: 24rem;
-  }
-
-  .xl\:w-\[30rem\]{
-    width: 30rem;
-  }
-
-  .xl\:w-\[\]{
-    width: ;
-  }
-
-  .xl\:w-\[25rem\]{
-    width: 25rem;
   }
 
   .xl\:p-0{
