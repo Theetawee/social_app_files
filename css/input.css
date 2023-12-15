@@ -38,11 +38,11 @@
 
 
 .cats>div>label{
-  @apply flex items-center gap-3 bg-white p-1.5 rounded border dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 border-gray-100 text-sm shadow;
+  @apply flex items-center gap-3  p-1.5 rounded border  bg-gray-800 text-gray-300 border-gray-700 text-sm shadow;
   }
   /* Assuming you have an input with the name 'categories' */
 input[name="category"] {
-  @apply w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-0 dark:bg-gray-700 dark:border-gray-600;
+  @apply w-4 h-4 text-primary-600   focus:ring-primary-600 ring-offset-gray-800 focus:ring-0 bg-gray-700 border-gray-600;
 } 
 
 
@@ -52,14 +52,14 @@ input[name="category"] {
 
 
 .tribute h2{
-   @apply text-3xl mb-2 text-slate-600 dark:text-white font-medium;
+   @apply text-3xl mb-2 text-white font-medium;
 }
 .tribute p{
-  @apply mb-4 dark:text-gray-200 text-base text-gray-700;
+  @apply mb-4 text-gray-200 text-base ;
 }
 
 .tribute h3{
-  @apply text-2xl dark:text-gray-200 mb-2 text-gray-600;
+  @apply text-2xl text-gray-200 mb-2;
 }
 
 .tribute a{
@@ -124,11 +124,11 @@ input[name="category"] {
 
 
 #webpush-message{
-  @apply max-w-lg flex items-center p-4 my-3 text-sm text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800;
+  @apply max-w-lg flex items-center p-4 my-3 text-sm  border  rounded-lg  bg-gray-800 text-blue-400 border-blue-800;
 }
 
 .htmx_errorbox{
-  @apply flex items-center p-4 mb-4 text-sm text-red-800 border border-red-300 rounded shadow bg-red-50 dark:bg-gray-800 dark:text-red-400 dark:border-red-800 fixed bottom-10 left-1/4;
+  @apply flex items-center p-4 mb-4 text-sm  border  rounded shadow  text-red-400 border-red-800 fixed bottom-10 left-1/4;
   z-index: 3000000;
 
 }
