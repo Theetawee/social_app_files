@@ -2900,6 +2900,11 @@ input:checked + .toggle-bg{
   color: rgb(207 250 254 / var(--tw-text-opacity));
 }
 
+.text-pink-400{
+  --tw-text-opacity: 1;
+  color: rgb(241 126 184 / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
 }
